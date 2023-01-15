@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'cps-icons';
+  src:  url('fonts/cps-icons.eot?r6o22h');
+  src:  url('fonts/cps-icons.eot?r6o22h#iefix') format('embedded-opentype'),
+    url('fonts/cps-icons.ttf?r6o22h') format('truetype'),
+    url('fonts/cps-icons.woff?r6o22h') format('woff'),
+    url('fonts/cps-icons.svg?r6o22h#cps-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cps-icons', serif !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cps-more:before {
+  content: "\e909";
+  color: #41f6d7;
+}
+.cps-application:before {
+  content: "\e900";
+  color: #fff;
+}
+.cps-arrov-right:before {
+  content: "\e901";
+  color: #fff;
+}
+.cps-call:before {
+  content: "\e902";
+  color: #fff;
+}
+.cps-chat:before {
+  content: "\e903";
+  color: #fff;
+}
+.cps-close:before {
+  content: "\e904";
+  color: #fff;
+}
+.cps-contact:before {
+  content: "\e905";
+  color: #fff;
+}
+.cps-menu:before {
+  content: "\e906";
+  color: #fff;
+}
+.cps-search:before {
+  content: "\e907";
+  color: #fff;
+}
+.cps-status:before {
+  content: "\e908";
+  color: #fff;
+}
