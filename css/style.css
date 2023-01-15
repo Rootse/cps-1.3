@@ -176,11 +176,14 @@ body {
 }
 
 .content__text {
-    display: flex;
+    overflow: hidden;
+    display: block;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
     letter-spacing: 0.5px;
     color: #1B1C21;
+    text-overflow: clip;
+    max-height: 90px;
 }
 
 .cps-more {
@@ -244,20 +247,14 @@ body {
         justify-content: space-between;
     }
 
-    .content__text {
-        flex-direction: column;
-    }
-
-    .content__text p:last-child {
-        overflow: hidden;
-        text-overflow: clip;
-        max-height: 35px;
+    .content__text{
+        max-height: 160px;
     }
 
     .content__img{
         position: static;
-        max-width: 360px;
-        max-height: 208px;
+        min-width: 360px;
+        min-height: 208px;
         border-radius: 6px;
         margin-left: 48px;
         transform: translate(-0%);
@@ -338,10 +335,6 @@ body {
 
     .side-menu__list {
         flex-wrap: wrap;
-    }
-
-    .content__text p:last-child {
-        max-height: 100%;
     }
 
     .content__img{
